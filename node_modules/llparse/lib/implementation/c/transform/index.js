@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Transform = void 0;
+const id_1 = require("./id");
+const to_lower_1 = require("./to-lower");
+const to_lower_unsafe_1 = require("./to-lower-unsafe");
+var base_1 = require("./base");
+Object.defineProperty(exports, "Transform", { enumerable: true, get: function () { return base_1.Transform; } });
+exports.default = {
+    ID: id_1.ID,
+    ToLower: to_lower_1.ToLower,
+    ToLowerUnsafe: to_lower_unsafe_1.ToLowerUnsafe,
+};
+//# sourceMappingURL=index.js.map
